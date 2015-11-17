@@ -2,7 +2,7 @@
 
 # This function creates a special matrix object that can cache its inverse.
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
   # step 0 - initialize
   inv <- NULL
   # step 1 - set the value of the matrix
